@@ -6,7 +6,7 @@ A simple guess the number game made with html and JavaScript
 
 How to install:
 
-Simply use the code between &lt;Body&gt and &lt;/Body&gt to add it to a webpage.
+Simply use the code between &lt;Body&gt; and &lt;/Body&gt; to add it to a webpage.
 
 Important:
 
