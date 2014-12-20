@@ -1,5 +1,6 @@
-var number = Math.floor((Math.random() * 100) + 1);
-document.write("Guess the number!   <br><br>");
+function StartGame(){
+    var number = Math.floor((Math.random() * 100) + 1);
+document.write("Guess the number!   ");
 var loop = (0);
 while (loop == 0) {
     var guess = prompt("What do you guess? Choose a number from 1 to 100.");
@@ -45,3 +46,4 @@ while (loop == 0) {
             }
         }
     }
+}
