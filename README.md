@@ -11,4 +11,4 @@ How to install:
 
 Important:
 
-Be sure to place "the code that is meant to be in the Head" in the Head because otherwise there is a change the game won't work
+Be sure to place "the code that is meant to be in the Head" in the Head because otherwise there is a chance the game won't work
