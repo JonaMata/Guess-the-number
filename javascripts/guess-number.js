@@ -1,6 +1,7 @@
 function StartGame(){
     var number = Math.floor((Math.random() * 100) + 1);
 document.write("Guess the number!   ");
+var count = (0);
 var loop = (0);
 while (loop == 0) {
     var guess = prompt("What do you guess? Choose a number from 1 to 100.");
@@ -10,6 +11,7 @@ while (loop == 0) {
     }
     else {
         if (guess == number) {
+            count = (count+1)
         alert("Correct!");
         loop = (1);
         document.write("You were correct, the answer was ");
@@ -22,10 +24,12 @@ while (loop == 0) {
         }
             else {
         if (guess > number && guess < 101) {
+            count = (count+1)
             alert("Lower!");
         }
         else {
             if (guess < number && guess > 0) {
+            count = (count+1)
                 alert("Higher!");
             }
             else {
