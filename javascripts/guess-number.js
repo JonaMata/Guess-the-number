@@ -6,7 +6,7 @@ while (loop == 0) {
     var guess = prompt("What do you guess? Choose a number from 1 to 100.");
     if (guess == null) {
         loop = (1);
-        document.write("You canceled the game.")
+        document.getElementById("result").innerHTML = "You canceled the game."
     }
     else {
         if (guess == number) {
@@ -15,7 +15,7 @@ while (loop == 0) {
         loop = (1);
         document.getElementById("result").innerHTML = "You were correct, the answer was ";
         document.getElementById("result").innerHTML = number;
-        document.getElementById("result").innerHTML = "!<br>";
+        document.getElementById("result").innerHTML = "!";
         document.getElementById("result").innerHTML = "You guessed ";
         document.getElementById("result").innerHTML = count;
         document.getElementById("result").innerHTML = " times!"
