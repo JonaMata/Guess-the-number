@@ -19,7 +19,7 @@ while (loop == 0) {
         document.getElementById("result").innerHTML = "!<br>";
         document.getElementById("result").innerHTML = "You guessed ";
         document.getElementById("result").innerHTML = count;
-        document.getElementById("result").innerHTML = " times!"";
+        document.getElementById("result").innerHTML = " times!"
         }
     else {
         if (guess % 1 != 0) {
