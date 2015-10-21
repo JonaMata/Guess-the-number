@@ -13,12 +13,7 @@ while (loop == 0) {
             count = (count+1)
         alert("Correct!");
         loop = (1);
-        document.getElementById("result").innerHTML = "You were correct, the answer was ";
-        document.getElementById("result").innerHTML = number;
-        document.getElementById("result").innerHTML = "!";
-        document.getElementById("result").innerHTML = "You guessed ";
-        document.getElementById("result").innerHTML = count;
-        document.getElementById("result").innerHTML = " times!"
+        document.getElementById("result").innerHTML = "You were correct, the answer was " number "!<br>You guessed " count " times!"
         }
     else {
         if (guess % 1 != 0) {
