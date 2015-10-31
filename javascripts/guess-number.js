@@ -1,4 +1,4 @@
-function StartGame(){
+//function StartGame(){
     var number = Math.floor((Math.random() * 100) + 1);
 var count = (0);
 var loop = (0);
@@ -50,4 +50,4 @@ while (loop == 0) {
         }
     }
 }
-}
+//}
