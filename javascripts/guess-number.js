@@ -1,9 +1,12 @@
 //function StartGame(){
     var number = Math.floor((Math.random() * 100) + 1);
+    var guess1 = 0
 var count = (0);
 var loop = (0);
 while (loop == 0) {
-    function Go() {
+    if (guess == guess1) {
+    }
+    else {
         var guess = document.getElementById("guess").value;
     //var guess = prompt("What do you guess? Choose a number from 1 to 100.");
     if (guess == null) {
@@ -49,5 +52,7 @@ while (loop == 0) {
             }
         }
     }
+    guess1 = guess
+}
 }
 //}
