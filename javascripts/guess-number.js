@@ -3,8 +3,6 @@ function StartGame(){
 var count = (0);
 var loop = (0);
 while (loop == 0) {
-   
-        var guess = document.getElementById("guess").value;
     var guess = prompt("What do you guess? Choose a number from 1 to 100.");
     if (guess == null) {
         loop = (1);
