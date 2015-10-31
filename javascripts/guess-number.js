@@ -1,6 +1,4 @@
 function StartGame(){
-    document.getElementById("input").innerHTML = "Number: <input id="guess" type="number">"
-<button onclick="go()">Go</button>
     var number = Math.floor((Math.random() * 100) + 1);
 var count = (0);
 var loop = (0);
